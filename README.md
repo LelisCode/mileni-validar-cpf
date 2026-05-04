@@ -1,6 +1,7 @@
 scpf = int(input("Digite o seu CPF: "))  
 cpf = scpf.replace(".", "").replace("-","")
 
+
 if len(cpf) == 11 and cpf.isdigit(): 
   print ("CPF válido!")
   
