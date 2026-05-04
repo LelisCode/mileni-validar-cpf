@@ -12,13 +12,13 @@ if len(cpf) == 11 and cpf.isdigit():
     nums = [int(d) for d in cpf]
     
 
-    soma1 = sum(nums[i] * (10 - i) for i in range(9))
-    dv1 = (soma1 * 10) % 11
+    s1 = sum(nums[i] * (10 - i) for i in range(9))
+    dv1 = (s1 * 10) % 11
     if dv1 == 10: dv1 = 0
     
   
-    soma2 = sum(nums[i] * (11 - i) for i in range(10))
-    dv2 = (soma2 * 10) % 11
+    s2 = sum(nums[i] * (11 - i) for i in range(10))
+    dv2 = (s2 * 10) % 11
     if dv2 == 10: dv2 = 0
     
 
