@@ -1,12 +1,13 @@
 
 # CODE OF READ CPF
 
- scpf = input("Digite o seu CPF: ")
+``` scpf = input("Digite o seu CPF: ") ```
 
 cpf = scpf.replace('.', '').replace('-', '').replace(' ', '')
 
 
 if len(cpf) == 11 and cpf.isdigit():
+     
      nums = [int(d) for d in cpf]
     
 
