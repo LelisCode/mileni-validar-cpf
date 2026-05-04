@@ -23,8 +23,8 @@
 
    ``` if dv1 == nums[9] and dv2 == nums[10] and not all(nums[i] == nums[i+1] for i in range(10)): 
         print("CPF válido!") ```
-  else: 
-   ```     print("CPF inválido!") ```
+ ``` else: 
+   print("CPF inválido!") ```
 
 
 
