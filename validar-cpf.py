@@ -2,10 +2,13 @@
 #   CPF válido! ou
 #   CPF inválido!
 
-cpf = int(input("Digite o seu CPF: "))
+
+scpf = input("Digite o seu CPF: ")
+
+
+cpf = scpf.replace(".", "").replace("-", "")
 
 if len(cpf) == 11 and cpf.isdigit():
-    print ("CPF válido!")
-
+    print("CPF válido!")
 else:
     print("CPF inválido!")
