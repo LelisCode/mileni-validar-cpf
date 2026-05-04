@@ -26,8 +26,8 @@ if len(cpf) == 11 and cpf.isdigit():
         print("CPF válido!")
     else:
         print("CPF inválido!")
-``` else:
-    print("CPF inválido! Formato ou tamanho incorreto.") ```
+else:
+    print("CPF inválido! Formato ou tamanho incorreto.")
 
 
 
