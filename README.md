@@ -1,5 +1,5 @@
 
-# CODE FOR READ CPF
+# CODE OF READ CPF
 
 
 
@@ -8,6 +8,6 @@
 
 - [@leliscode](https://github.com/LelisCode)
 
-EXAMPLE OF CPF
+## EXAMPLE OF CPF
 ![Logo](https://cr.inf.br/blog/wp-content/uploads/2021/04/cpf-modelo-gestao-estrategia-cr-sistemas-e-web-linko-comercial.png)
 
