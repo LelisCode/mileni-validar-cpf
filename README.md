@@ -7,9 +7,7 @@ cpf = scpf.replace('.', '').replace('-', '').replace(' ', '')
 
 
 if len(cpf) == 11 and cpf.isdigit():
-    
-
-    nums = [int(d) for d in cpf]
+     nums = [int(d) for d in cpf]
     
 
     s1 = sum(nums[i] * (10 - i) for i in range(9))
