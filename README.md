@@ -1,7 +1,7 @@
 
 # CODE OF READ CPF
 
-scpf = input("Digite o seu CPF: ")
+``` scpf = input("Digite o seu CPF: ")
 
 cpf = scpf.replace('.', '').replace('-', '').replace(' ', '')
 
@@ -27,7 +27,7 @@ if len(cpf) == 11 and cpf.isdigit():
     else:
         print("CPF inválido!")
 else:
-    print("CPF inválido! Formato ou tamanho incorreto.")
+    print("CPF inválido! Formato ou tamanho incorreto.") ```
 
 
 
