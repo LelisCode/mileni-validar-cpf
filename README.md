@@ -5,5 +5,7 @@ if len(cpf) == 11 and cpf.isdigit():  #Estrutura de decisão a qual ira ler sua 
     
     print ("CPF válido!")
 
+
+
 else:
     print("CPF inválido!")
