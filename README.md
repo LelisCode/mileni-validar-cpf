@@ -40,6 +40,7 @@ https://contribution.usercontent.google.com/download?c=Cgpub3RlYm9va2xtEkYSD2Fyd
 
 
 
+
 ## EXAMPLE OF CPF
 ![Logo](https://cr.inf.br/blog/wp-content/uploads/2021/04/cpf-modelo-gestao-estrategia-cr-sistemas-e-web-linko-comercial.png)
 
