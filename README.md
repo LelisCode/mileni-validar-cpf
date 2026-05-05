@@ -53,17 +53,6 @@ Go to the project directory
    cd mileni-validar-cpf
 ```
 
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
 
 
 
