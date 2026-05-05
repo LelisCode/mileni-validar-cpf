@@ -16,16 +16,16 @@
  ```   if dv1 == 10: dv1 = 0 ```
     
   
- ```   s2 = sum(nums[i] * (11 - i) for i in range(10)) ```
+  s2 = sum(nums[i] * (11 - i) for i in range(10)) ```
   ```  dv2 = (s2 * 10) % 11 ```
    ```  if dv2 == 10: dv2 = 0 ```
     
 
-         if dv1 == nums[9] and dv2 == nums[10] and not all(nums[i] == nums[i+1] for i in range(10)): 
-         print("CPF válido!")  
-         else: 
-         print("CPF inválido!") 
- 
+      if dv1 == nums[9] and dv2 == nums[10] and not all(nums[i] == nums[i+1] for i in range(10)):  ``` 
+        ```   print("CPF válido!")   ``` 
+       ```    else: 
+         print("CPF inválido!")  ``` 
+  
 
 
 
